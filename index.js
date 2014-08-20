@@ -51,9 +51,9 @@ function matches(elem, selector) {
 
   // native support for `matches` is missing and a fallback is required
   var nodes = parentElem.querySelectorAll(selector);
-  var i = nodes.length;
+  var len = nodes.length;
 
-  while (i--) {
+  for (var i = 0; i < len; i++) {
     if (nodes[i] === elem) {
       return true;
     }
