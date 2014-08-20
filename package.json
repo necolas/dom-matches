@@ -1,7 +1,7 @@
 {
   "name": "dom-matches",
   "description": "Check if a DOM element matches a given selector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "index.js"
   ],
