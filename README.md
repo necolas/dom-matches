@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/necolas/dom-matches.png?branch=master)](http://travis-ci.org/necolas/dom-matches)
 
-Check if a DOM element matches a given selector. Includes support for orphan nodes.
+Check if a DOM element matches a given selector.
 
 ## Installation
 
@@ -31,7 +31,7 @@ matches(elem, '.bar');
 ## Browser support
 
 * Google Chrome
-* Firefox 4+
-* Internet Explorer 8+
-* Safari 5+
+* Firefox ESR+
+* Internet Explorer 10+
+* Safari 6+
 * Opera
